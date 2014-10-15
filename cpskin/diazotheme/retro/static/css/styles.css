@@ -12,7 +12,8 @@ body #visual-portal-wrapper {
 }
 
 #portal-logo{
-    min-height:114px;
+    height: 134px;
+    margin:0;
 }
 
 #top-actions-inner {
