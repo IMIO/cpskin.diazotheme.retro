@@ -37,6 +37,18 @@ body #visual-portal-wrapper {
     height:20px;
 }
 
+#portal-siteactions{
+	margin-top:0.3em;
+}
+
+#portal-header #portal-siteactions li a{
+    color:grey;
+}
+
+#portal-header #top-actions a:hover {
+    color: #75726b;
+}
+
 #top-actions-actions #portal-personaltools .actionMenuHeader a,#top-actions-actions #anon-personalbar a,#top-actions-actions #anon-personalbar a:hover {
     color: grey;
     margin-right: 1em;
@@ -49,9 +61,14 @@ body #visual-portal-wrapper {
     padding:0 1%;
 }
 
+#portal-header #top-search-logo {
+    background-color: transparent;
+    margin-bottom: 1.6em;
+}
+
 #portal-searchbox {
     right: 15em;
-    top: 4em;
+    top: 2em;
 }
 
 /* --- Navigation --- */
@@ -230,12 +247,12 @@ body #visual-portal-wrapper {
 /* --- Viewlet multimédia --- */
 
 #multimediaviewlet {
-    background-color: #fbf8ef;
+    background-color: #fcfcfc;
     margin: 2em 3px 1em;
 }
 
 .section-notheme #multimediaviewlet h2 {
-    color: #f4992e;
+    color: #595959;
 }
 
 #multimediaviewlet .link-all {
@@ -292,11 +309,26 @@ body #visual-portal-wrapper {
 }
 
 #icone img {
-    background-color: #24b6e7;
     border: medium none;
     border-radius: 4px;
     margin: 0 0.3em 0.5em;
     padding: 5px;
+}
+
+#icone-sugestion{
+    background-color:#f3982d;
+}
+
+#icone-mail{
+    background-color:#afa280;
+}
+
+#icone-question{
+    background-color:#dacdab;
+}
+
+#icone-livre{
+    background-color:#cd3301;
 }
 
 #icone > p a {
