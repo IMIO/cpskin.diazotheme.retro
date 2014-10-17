@@ -46,7 +46,7 @@ body #visual-portal-wrapper {
 }
 
 #portal-header #top-actions a:hover {
-    color: #75726b;
+    color: #fff;
 }
 
 #top-actions-actions #portal-personaltools .actionMenuHeader a,#top-actions-actions #anon-personalbar a,#top-actions-actions #anon-personalbar a:hover {
@@ -220,12 +220,16 @@ body #visual-portal-wrapper {
     padding: 0.75em 1% 1% 1%;
 }
 
-.titre-rss, .results{
+.titre-rss{
     background-color:white;
-    border-bottom: 1px solid #eaeaea;
 }
 
-.titre-rss h2 {
+.results{
+     background-color:white;
+	  border-bottom: 1px solid #eaeaea;
+ }
+ 
+.titre-rss h2, .bloc-rss:after  {
     color: #cd3301;
 }
 
@@ -234,7 +238,7 @@ body #visual-portal-wrapper {
 }
 
 .voir-tout:after {
-    content: ">";
+    content: "➟";
     font-size: 1.3em;
     position: relative;
     top: 2px;
@@ -247,7 +251,7 @@ body #visual-portal-wrapper {
 /* --- Viewlet multimédia --- */
 
 #multimediaviewlet {
-    background-color: #fcfcfc;
+    background-color: transparent;
     margin: 2em 3px 1em;
 }
 
@@ -261,7 +265,7 @@ body #visual-portal-wrapper {
 }
 
 #multimediaviewlet .link-all:after {
-    content: ">";
+    content: "➟";
     font-size: 1.3em;
     position: relative;
     top: 2px;
