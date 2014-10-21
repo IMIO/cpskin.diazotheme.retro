@@ -238,10 +238,7 @@ body #visual-portal-wrapper {
 }
 
 .voir-tout:after {
-    content: "➟";
     font-size: 1.3em;
-    position: relative;
-    top: 2px;
 }
 
 #content #accueil a.voir-tout:hover {
