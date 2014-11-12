@@ -39,6 +39,7 @@ body #visual-portal-wrapper {
 
 #portal-siteactions{
 	margin-top:0.3em;
+	padding: 0 1em 0 0;
 }
 
 #portal-header #portal-siteactions li a{
@@ -67,8 +68,9 @@ body #visual-portal-wrapper {
 }
 
 #portal-searchbox {
-    right: 15em;
-    top: 2em;
+	background-color: #ffffff;
+	right: 15em;
+	top: 2em;
 }
 
 /* --- Navigation --- */
