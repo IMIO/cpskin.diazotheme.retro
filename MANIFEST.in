@@ -1,3 +1,9 @@
 graft cpskin
-graft docs/
-include *.rst *.in
+recursive-include docs *
+include *.py
+include *.rst
+include *.txt
+include *.in
+include *.cfg
+include *.in
+global-exclude *.pyc
