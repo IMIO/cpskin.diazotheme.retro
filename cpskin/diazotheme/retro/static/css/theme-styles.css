@@ -169,12 +169,7 @@ body #visual-portal-wrapper {
 
 /* --- Je suis,accès directs --- */
 
-/*#portal-globalnav #portaltab-je-suis a, #portal-globalnav #portaltab-acces-directs a {
-    background-color: #AFA280;
-    color: #ffffff;
-}*/
-
-#portal-globalnav li:nth-last-child(2) a, #portal-globalnav li:last-child a{
+#portal-globalnav #portaltab-je-suis a, #portal-globalnav #portaltab-je-trouve a{
     background-color: #AFA280;
 }
 
