@@ -278,6 +278,10 @@ body #visual-portal-wrapper {
 
 /* --- Flexslider --- */
 
+/*
+Those rules (#slider & #carousel) should change when #16991 is in production
+Begin
+*/
 #slider.flexslider .flex-caption {
     background-color: #fcfcfc;
 }
@@ -285,6 +289,16 @@ body #visual-portal-wrapper {
 #flex #carousel ul li {
     background-color:#fcfcfc ;
 }
+
+#slider-a-la-une.flexslider .flex-caption {
+    background-color: #fcfcfc;
+}
+
+#flex #carousel-a-la-une ul li {
+    background-color:#fcfcfc ;
+}
+/* End */
+
 
 #content #flex .flexslider a, #content #flex .flexslider #content #flex a:hover, #content #flex .flexslider a:link {
     color: #4c4c4c !important;
