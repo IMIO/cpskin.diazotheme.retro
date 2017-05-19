@@ -5,6 +5,9 @@ Changelog
 0.2.3 (unreleased)
 ------------------
 
+- Complete migration to LESS
+  [laulaz]
+
 - Add missing theme parameters (harmonization)
   [laulaz]
 
