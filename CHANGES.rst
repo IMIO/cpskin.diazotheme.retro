@@ -5,6 +5,9 @@ Changelog
 0.2.3 (unreleased)
 ------------------
 
+- Add missing theme parameters (harmonization)
+  [laulaz]
+
 - Buildout harmonization & add omelette
   [laulaz]
 
