@@ -109,6 +109,7 @@ body #visual-portal-wrapper {
     margin-right: 0.5%;
     margin-top: 3px;
     line-height:1.25em;
+    height: 1.25em;
 }
 
 #navWrapper #portal-globalnav .selected a:hover, #navWrapper #portal-globalnav a:hover {
@@ -129,17 +130,18 @@ body #visual-portal-wrapper {
     background-color:#f4f4f4;
 }
 
-.icon-home:before,.selected .icon-home:before{
-    color:#000000;
+.icon-home{
+    display: none;
 }
 
 #navWrapper #portaltab-index_html.selected a{
     background-color:#f4f4f4;
 
 }
-.plain a:hover .icon-home:before {
-    color: #3F3F3F;
-}
+#navWrapper #portaltab-index_html.selected a::before,
+#portal-globalnav #portaltab-index_html.plain a:hover::before{
+   color:#000;
+ }
 
 #portal-globalnav-cpskinmenu.navTreeLevel0 a, #portal-globalnav-cpskinmenu.navTreeLevel0 a:link, 
 #portal-globalnav-cpskinmenu.navTreeLevel0 a:visited{
