@@ -8,8 +8,8 @@ Changelog
 - Change css navigation for LESS
   [mgennart]
 
-0.3 (2017-05-29)
-----------------
+0.3.1 (2017-07-12)
+------------------
 
 - Ensure cpskin.theme is migrated to LESS before migrating this theme
   [laulaz]
