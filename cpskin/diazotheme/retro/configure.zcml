@@ -21,12 +21,6 @@
     <!-- Theme -->
     <plone:static directory="static" name="cpskin.diazotheme.retro" type="theme" />
 
-    <cmf:registerDirectory
-        name="skins"
-        directory="skins"
-        recursive="True"
-        />
-
     <!-- Upgrades -->
     <genericsetup:upgradeStep
         title="cpskin.diazotheme.retro theme: upgrade to LESS (v2)"

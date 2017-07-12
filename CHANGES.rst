@@ -5,6 +5,9 @@ Changelog
 0.3.1 2017-07-12)
 ------------------
 
+- Remove unused skin.
+  [bsuttor]
+
 - Change css navigation for LESS
   [mgennart]
 
