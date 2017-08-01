@@ -1,11 +1,11 @@
 Changelog
 =========
 
-0.3.3 (unreleased)
+0.3.3 (2017-08-01)
 ------------------
 
-- Nothing changed yet.
-
+- Change overflow of body #visual-portal-wrapper.
+  [mgennart]
 
 0.3.2 (2017-07-17)
 ------------------
