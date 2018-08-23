@@ -4,7 +4,8 @@ Changelog
 0.3.5 (unreleased)
 ------------------
 
-- Nothing changed yet.
+- Add uninstall profile
+  [laulaz]
 
 
 0.3.4 (2017-10-12)
