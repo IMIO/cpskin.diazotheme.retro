@@ -1,7 +1,7 @@
 Changelog
 =========
 
-0.3.5 (unreleased)
+0.3.5 (2019-01-10)
 ------------------
 
 - Add uninstall profile
